@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout code') {
             steps {
-                git branch: 'main', url: https://github.com/Desi-Kamenova/SeleniumIde_Demo_Jenkins.git
+                git branch: 'main', url: 'https://github.com/Desi-Kamenova/SeleniumIde_Demo_Jenkins.git'
             }
         }
 
