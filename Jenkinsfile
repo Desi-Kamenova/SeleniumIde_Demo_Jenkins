@@ -43,6 +43,7 @@ pipeline {
             archiveArtifacts artifacts: '**/TestResults/*.trx', allowEmptyArchive: true
             junit '**/TestResults/*.trx'
         }
+
     }
 
 }
